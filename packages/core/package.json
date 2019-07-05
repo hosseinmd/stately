@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "pure js state Managment",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "compile": "yarn babel src --out-dir dist --presets=@babel/env",
     "test": "jest"
