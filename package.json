@@ -7,7 +7,7 @@
   "author": "Hossein Mohammadi",
   "license": "MIT",
   "scripts": {
-    "core": "yarn workspace @statly/core",
+    "core": "yarn workspace @stately/core",
     "distribute": "yarn core compile && yarn lerna publish from-package"
   },
   "workspaces": [
