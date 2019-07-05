@@ -1,4 +1,5 @@
 .prettierrc
 .gitattributes
+.babelrc
 src/
 __tests__/
