@@ -1,0 +1,29 @@
+{
+  "name": "@stately/core",
+  "version": "0.0.1",
+  "description": "pure js state Managment",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/babel src --out-dir dist --presets=@babel/env",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hosseinmd/stately.git"
+  },
+  "keywords": [
+    "easy",
+    "state",
+    "state-management",
+    "javascript",
+    "javascript-library",
+    "hossein",
+    "mohammadi"
+  ],
+  "author": "Hossein mohammadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hosseinmd/stately/issues"
+  },
+  "homepage": "https://github.com/hosseinmd/stately#readme"
+}
