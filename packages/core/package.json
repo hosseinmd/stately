@@ -4,7 +4,7 @@
   "description": "pure js state Managment",
   "main": "dist/index.js",
   "scripts": {
-    "compile": "./node_modules/.bin/babel src --out-dir dist --presets=@babel/env",
+    "compile": "yarn babel src --out-dir dist --presets=@babel/env",
     "test": "jest"
   },
   "repository": {
