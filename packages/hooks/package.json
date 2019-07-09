@@ -1,7 +1,7 @@
 {
-  "name": "@stately/core",
+  "name": "@stately/hooks",
   "version": "0.0.1",
-  "description": "pure js state Managment",
+  "description": "state management use hooks functions",
   "main": "dist/index.js",
   "types": "typescript/index.d.ts",
   "publishConfig": {
@@ -29,5 +29,11 @@
   "bugs": {
     "url": "https://github.com/hosseinmd/stately/issues"
   },
-  "homepage": "https://github.com/hosseinmd/stately#readme"
+  "homepage": "https://github.com/hosseinmd/stately#readme",
+  "devDependencies": {
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  }
 }

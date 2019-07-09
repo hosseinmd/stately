@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "core": "yarn workspace @stately/core",
-    "distribute": "yarn core compile && yarn lerna publish from-package"
+    "hooks": "yarn workspace @stately/hooks",
+    "distribute": "yarn core compile && yarn hooks compile && yarn lerna publish from-package"
   },
   "workspaces": [
     "packages/*"
