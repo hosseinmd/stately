@@ -1,6 +1,6 @@
 {
   "name": "stately",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "state managment for javascript",
   "private": true,
   "main": "src/index",
@@ -9,7 +9,8 @@
   "scripts": {
     "core": "yarn workspace @stately/core",
     "hooks": "yarn workspace @stately/hooks",
-    "distribute": "yarn core compile && yarn hooks compile && yarn lerna publish from-package"
+    "compile": "yarn core compile && yarn hooks compile",
+    "distribute": "yarn compile && yarn lerna publish from-package"
   },
   "workspaces": [
     "packages/*"

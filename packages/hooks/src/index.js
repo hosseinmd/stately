@@ -10,6 +10,6 @@ function useStately(sensitiveStateKeys, listener) {
   return [this.state, this.actions];
 }
 
-export function generateHooks(store) {
+export function createHooks(store) {
   return useStately.bind(store);
 }

@@ -8,7 +8,7 @@
     "access": "public"
   },
   "scripts": {
-    "compile": "yarn babel src --out-dir dist --presets=@babel/env",
+    "compile": "yarn babel src --out-dir dist",
     "test": "jest"
   },
   "repository": {
