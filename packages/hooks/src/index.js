@@ -1,9 +1,9 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
 function useStately(sensitiveStateKeys, listener) {
-  if (typeof listener !== "function") listener = React.useState()[1];
+  if (typeof listener !== "function") listener = useState()[1];
 
-  React.useEffect(() => {
+  useEffect(() => {
     return this.addListener(listener, sensitiveStateKeys).remove;
   }, []);
 
