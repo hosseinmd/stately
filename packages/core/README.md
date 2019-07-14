@@ -25,7 +25,6 @@ yarn add @stately/core
 ## use
 
 ```javascript
-import React from "react";
 import { createStore } from "@stately/core";
 
 const initialState = {
